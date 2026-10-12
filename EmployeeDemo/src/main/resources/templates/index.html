@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EMS Home Page</title>
+
+    <style>
+        body {
+            background-color: #eaf2f8;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h1 {
+            color: #154360;
+        }
+
+        .container {
+            background-color: white;
+            width: 350px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #2874a6;
+            color: white;
+            padding: 12px;
+            width: 220px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #154360;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>EMS</h1>
+        <h3>Employee Management System</h3>
+
+        <a href="/getAllEmp">
+            <button>View All Employees</button>
+        </a>
+
+        <a href="/getemp/1">
+            <button>Employee By ID</button>
+        </a>
+
+        <a href="/updateemp/1">
+            <button>Update Employee</button>
+        </a>
+
+        <a href="/delete/1">
+            <button>Delete Employee</button>
+        </a>
+
+    </div>
+
+</body>
+</html>
